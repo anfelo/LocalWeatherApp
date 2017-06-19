@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Palanquin', sans-serif;
+  margin: 0;
+  background-color: #e0ab18;
+}
+
+.wrapper {
+    position:absolute; 
+    top:0; 
+    left:0; 
+    min-height:100%;
+    width: 100%;
+}
+
+.main {
+    width:60%; 
+    height:100%;
+    margin: 0 20%;
+    text-align: center;
+}
+
+.jumbotron {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 4em;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon,
+.temperature {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.3em;
+    color: white;
+
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 1px 1px black;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.weather-info {
+    list-style: none;
+    margin: 40px 0;
+    padding: 0;
+}
+
+.weather-info li {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgba(77, 77, 77, .5);
+    font-size: 1.3em;
+}
+
+.unit-changer {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 20px 2px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.unit-changer:hover {
+    background-color: rgba(77, 77, 77, .5);
+}

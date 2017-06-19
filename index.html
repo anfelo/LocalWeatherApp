@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main">
+        <h1 class="jumbotron">My Weather App</h1>
+        <div class="container">
+            <div class="icon">
+                <img src="" alt"Weather Icon" />
+            </div>
+            <div class="temperature">   
+                <span class="value"></span> <span class="unit"><strong>°C</strong></span>
+            </div>
+        </div>
+        
+        <ul class="weather-info">    
+            <li class="location"></li>
+            <li class="summary"></li>
+            <li class="humidity"><span class="value"></span><span class="unit"> <strong>%</strong></span></li>
+        </ul>
+        <button type="button" class="unit-changer">Farenheit</button>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+          crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
